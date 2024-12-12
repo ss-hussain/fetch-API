@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(236, 236, 236);
+}
+
+/* ===============Start Card Content or Paragraph=================== */
+.row{
+    width: 100%;
+    justify-content: center;
+}
+
+.content{
+    padding: 20px;
+    text-align: center;
+}
+hr{
+    border: 3px solid aqua;
+}
+.card-text{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    
+}
+
+/* ===============End Card Content or Paragraph=================== */
+
+/* ===============Start Card Image=================== */
+
+.card img{
+    width: 200px;
+    height: 150px;
+}
+.box{
+    width: 13.4rem;
+    height: 200px;
+    text-align: center;
+}
+.box img{
+    width: 85%;
+    height: 85%;
+}
+.box1 img{
+    object-fit: contain;
+}
+/* ===============Start Card Image=================== */
